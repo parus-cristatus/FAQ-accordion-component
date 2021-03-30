@@ -139,6 +139,9 @@ button {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s;
+}
+
+.faq dd.expanded {
     border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
@@ -203,6 +206,6 @@ button {
     }
 
     .faq {
-        width: 85%;
+        width: 90%;
     }
 }
