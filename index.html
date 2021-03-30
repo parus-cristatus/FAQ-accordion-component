@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <div class="container">
+    <img class="interactive-box-image" id="interactive-box-image" src="images/illustration-box-desktop.svg" alt aria-hidden="true">
+    <section class="faq">
+      <div class="faq__left">
+        
+        <picture class="faq__picture">
+          <source srcset="images/illustration-woman-online-mobile.svg" media="(max-width: 992px)">
+          <img src="images/illustration-woman-online-desktop.svg" alt aria-hidden="true">
+        </picture>
+      </div>
+      
+      <div class="faq__right">
+        <h1 class="faq__heading">FAQ</h1>
+        <dl>
+          <dt>
+            <button class="faq__button" data-toggle="faq1" aria-expanded="false" aria-controls="faq1__desc">
+              How many team members can I invite?
+            </button>
+          </dt>
+          <dd id="faq1">
+            <p id="faq1__desc" class="faq__desc">
+              You can invite up to 2 additional users on the Free plan. There is no limit on 
+        team members for the Premium plan.
+                
+            </p>
+          </dd>
+          <dt>
+            <button data-toggle="faq2" class="faq__button" aria-expanded="false" aria-controls="faq2__desc">
+              What is the maximum file upload size?
+            </button>
+          </dt>
+          <dd id="faq2">
+            <p id="faq2__desc" class="faq__desc">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+                
+            </p>
+          </dd>
+          <dt>
+            <button data-toggle="faq3" class="faq__button" aria-expanded="false" aria-controls="faq3__desc">
+              How do I reset my password?
+            </button>
+          </dt>
+          <dd id="faq3">
+            <p id="faq3__desc" class="faq__desc">
+              
+              Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.
+                
+            </p>
+          </dd>
+          <dt>
+            <button data-toggle="faq4" class="faq__button" aria-expanded="false" aria-controls="faq4__desc">
+              Can I cancel my subscription?
+            </button>
+          </dt>
+          <dd id="faq4">
+            <p id="faq4__desc" class="faq__desc">
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </p>
+          </dd>
+          <dt>
+            <button data-toggle="faq5" class="faq__button" aria-expanded="false" aria-controls="faq5__desc">
+              Do you provide additional support?
+            </button>
+          </dt>
+          <dd id="faq5">
+            <p id="faq5__desc" class="faq__desc">
+              Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </p>
+          </dd>
+        </dl>
+        
+        
+        
+      </div>
+
+    </section>
+  
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by Sigma.
+  </div>
+  
+<script src="index.js"></script>
+  
+</body>
+</html>
